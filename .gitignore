@@ -1,0 +1,21 @@
+# Terraform
+.terraform/
+*.tfplan
+*.tfstate
+*.tfstate.backup
+**/.terraform/*
+.terraform.lock.hcl
+.terraformrc
+terraform.rc
+
+# Crash log files
+crash.log
+
+# Specific to your environment
+# .terraform/environment/
+# .terraform/modules/
+# .terraform/plugins/
+
+# Sensitive data (if you are storing this locally, which is not recommended)
+# *.tfvars
+# *.tfvars.json
